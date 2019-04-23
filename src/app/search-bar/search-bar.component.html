@@ -1,0 +1,53 @@
+<form method="get" action="#">
+  <div class="row mb-2">
+    <div class="col-12 col-md-10">
+        <input type="text" class="form-control" name="searchRequest" placeholder="Введите код или название добавки">
+    </div>
+    <div class="col-12 mt-2 col-md-2 mt-md-0">
+        <button type="submit" class="btn btn-block btn-info search-button" id="button"><span class="glyphicon glyphicon-search"></span> Искать</button>
+    </div>
+  </div>
+  <div class="more-params-block">
+    <div class="row mb-2">
+      <div class="col-12 col-md-4 col-lg-2">
+        <div class="form-group">
+          <label for="additiveCategory">Категория</label>
+          <select id="additiveCategory" name="additiveCategory" class="form-control form-control-sm">
+              <option selected>Choose...</option>
+              <option>...</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-12 mt-2 mt-md-0 col-md-4">
+        <div class="form-group">
+            <label for="additiveDanger">Опасность</label>
+            <select id="additiveDanger" name="additiveDanger" class="form-control form-control-sm">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+      </div>
+      <div class="col-12 mt-2 mt-md-0 col-md-4">
+        <div class="form-group">
+          <label for="additiveOrigin">Происхождение</label>
+          <select id="additiveOrigin" name="additiveOrigin" class="form-control form-control-sm">
+              <option selected>Choose...</option>
+              <option>...</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-body">
+        <p>
+          
+            Сервис пищевых добавок позволяет искать пищевые добавки по их коду либо названию. Просто нажмите на
+            нужную добавку для получения полной информации о ней. Если не видите нужной добавки - воспользуйтесь
+            поиском.
+        
+        </p>
+      </div>
+    </div>
+  </div>

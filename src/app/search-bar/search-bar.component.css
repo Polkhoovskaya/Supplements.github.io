@@ -1,0 +1,43 @@
+.form-control {
+    display: block; 
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}
+#button {
+    margin-right: 15px;
+    width: 85%;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
